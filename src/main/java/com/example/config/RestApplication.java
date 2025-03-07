@@ -6,6 +6,13 @@ import java.util.Set;
 
 @ApplicationPath("api")
 public class RestApplication extends Application {
+    @Override
+    public Set<Class<?>> getClasses() {
+        return Set.of(
+                com.example.resource.HelloResource.class,
+                com.example.resource.UserResource.class
+        );
+    }
 
 
 

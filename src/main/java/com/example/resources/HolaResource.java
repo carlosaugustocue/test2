@@ -12,7 +12,7 @@ public class HolaResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String saludar() {
-        return "¡Hola, mundo esto es una prueba!";
+        return "¡Hola esto es una prueba!";
     }
 
     @GET
